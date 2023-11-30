@@ -1,0 +1,458 @@
+repo_name: britkern/ml-agents
+report_id: 331543d0e8543e3cfecc9114b4fc0184
+repo_type: Public
+timestamp: '2023-11-30T18:23:55+00:00'
+requested_by: chriselion
+provider: github
+branch: master
+detected_tools_count: 21
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source: Repo Metadata
+- name: Matplotlib
+  description: A plotting library for the Python programming language
+  website_url: http://matplotlib.org
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source: ml-agents/setup.py
+  last_updated_by: Chris Elion
+  last_updated_on: 2019-09-16 23:11:21.000000000 Z
+- name: CircleCI
+  description: Automate your development process quickly, safely, and at scale
+  website_url: https://circleci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/190/CvqrSSFs_400x400.jpg
+  detection_source: ".circleci/config.yml"
+  last_updated_by: Chris Elion
+  last_updated_on: 2019-10-24 21:02:23.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source: test_requirements.txt
+  last_updated_by: Chris Elion
+  last_updated_on: 2019-09-16 23:11:21.000000000 Z
+- name: pre-commit
+  description: A slightly improved pre-commit hook for git
+  website_url: http://jish.github.io/pre-commit/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: test_requirements.txt
+  last_updated_by: Chris Elion
+  last_updated_on: 2019-09-16 23:11:21.000000000 Z
+- name: pytest
+  description: A full-featured Python testing tool to help you write better programs
+  website_url: http://pytest.org/latest/
+  version: 3.2.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/4586/Lu99Qe0Z_400x400.png
+  detection_source_url: github.com/britkern/ml-agents/blob/master/test_requirements.txt
+  detection_source: test_requirements.txt
+  last_updated_by: Chris Elion
+  last_updated_on: 2019-09-16 23:11:21.000000000 Z
+- name: HTML
+  description: Hypertext Markup Language for creating web pages.
+  website_url: http://
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/2270/no-img-open-source.png
+  detection_source: docs/doxygen/footer.html
+  last_updated_by: Joe Ward
+  last_updated_on: 2018-02-27 01:25:39.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source: Repo Metadata
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: 1.13.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: github.com/britkern/ml-agents/blob/master/ml-agents-envs/setup.py
+  detection_source: ml-agents-envs/setup.py
+  last_updated_by: Arthur Juliani
+  last_updated_on: 2019-04-01 18:48:29.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source: Repo Metadata
+- name: TensorFlow
+  description: Open Source Software Library for Machine Intelligence
+  website_url: https://www.tensorflow.org
+  version: '1.7'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/4717/FtFnqC38_400x400.png
+  detection_source_url: github.com/britkern/ml-agents/blob/master/ml-agents/setup.py
+  detection_source: ml-agents/setup.py
+  last_updated_by: Chris Elion
+  last_updated_on: 2019-09-16 23:11:21.000000000 Z
+- name: Ubuntu
+  description: The leading OS for PC, tablet, phone and cloud
+  website_url: http://www.ubuntu.com/
+  version: 16.04.0
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Operating Systems
+  image_url: https://img.stackshare.io/service/3511/cof_orange_hex.jpg
+  detection_source_url: github.com/britkern/ml-agents/blob/master/Dockerfile
+  detection_source: Dockerfile
+  last_updated_by: eshvk
+  last_updated_on: 2018-03-27 23:15:15.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  package_url: https://pypi.org/project/Pillow
+  version: 4.2.1
+  license: HPND
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19844/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: github.com/britkern/ml-agents/blob/master/ml-agents-envs/setup.py
+  detection_source: ml-agents-envs/setup.py
+  last_updated_by: Chris Elion
+  last_updated_on: 2019-09-16 23:11:21.000000000 Z
+  vulnerabilities:
+  - name: Out-of-bounds Read in Pillow
+    cve_id: CVE-2021-25287
+    cve_url: https://github.com/advisories/GHSA-77gc-v2xv-rvvh
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 8.2.0
+  - name: Arbitrary expression injection in Pillow
+    cve_id: CVE-2022-22817
+    cve_url: https://github.com/advisories/GHSA-8vj2-vxx3-667w
+    detected_date: Jan 18
+    severity: critical
+    first_patched: 9.0.1
+  - name: Out-of-bounds Read
+    cve_id: CVE-2021-25288
+    cve_url: https://github.com/advisories/GHSA-rwv7-3v45-hg29
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 8.2.0
+  - name: Path traversal in Pillow
+    cve_id: CVE-2022-24303
+    cve_url: https://github.com/advisories/GHSA-9j59-75qj-795w
+    detected_date: Mar 12
+    severity: critical
+    first_patched: 9.0.1
+  - name: Buffer overflow in Pillow
+    cve_id: CVE-2020-10379
+    cve_url: https://github.com/advisories/GHSA-8843-m7mw-mxqm
+    detected_date: Aug 22
+    severity: high
+    first_patched: 7.1.0
+  - name: Pillow Out-of-bounds Read
+    cve_id: CVE-2020-35653
+    cve_url: https://github.com/advisories/GHSA-f5g8-5qq7-938w
+    detected_date: Aug 22
+    severity: high
+    first_patched: 8.1.0
+  - name: PCX P mode buffer overflow in Pillow
+    cve_id: CVE-2020-5312
+    cve_url: https://github.com/advisories/GHSA-p49h-hjvm-jg3h
+    detected_date: Jan 18
+    severity: high
+    first_patched: 6.2.2
+  - name: Integer overflow in Pillow
+    cve_id: CVE-2020-5310
+    cve_url: https://github.com/advisories/GHSA-vcqg-3p29-xw73
+    detected_date: Jan 18
+    severity: high
+    first_patched: 6.2.2
+  - name: Pillow Denial of Service by Uncontrolled Resource Consumption
+    cve_id: CVE-2021-27921
+    cve_url: https://github.com/advisories/GHSA-f4w8-cv6p-x6r5
+    detected_date: Aug 22
+    severity: high
+    first_patched: 8.1.1
+  - name: Out-of-bounds Write in Pillow
+    cve_id: CVE-2021-25290
+    cve_url: https://github.com/advisories/GHSA-8xjq-8fcg-g5hw
+    detected_date: Aug 22
+    severity: high
+    first_patched: 8.1.1
+  - name: Out of bounds read in Pillow
+    cve_id: CVE-2021-25291
+    cve_url: https://github.com/advisories/GHSA-mvg9-xffr-p774
+    detected_date: Aug 22
+    severity: high
+    first_patched: 8.2.0
+  - name: Out-of-bounds read in Pillow
+    cve_id: CVE-2020-11538
+    cve_url: https://github.com/advisories/GHSA-43fq-w8qq-v88h
+    detected_date: Aug 22
+    severity: high
+    first_patched: 7.1.0
+  - name: Potential infinite loop in Pillow
+    cve_id: CVE-2021-28676
+    cve_url: https://github.com/advisories/GHSA-7r7m-5h27-29hp
+    detected_date: Aug 22
+    severity: high
+    first_patched: 8.2.0
+  - name: Uncontrolled Resource Consumption in Pillow
+    cve_id: CVE-2021-28677
+    cve_url: https://github.com/advisories/GHSA-q5hq-fp76-qmrc
+    detected_date: Aug 22
+    severity: high
+    first_patched: 8.2.0
+  - name: 'libwebp: OOB write in BuildHuffmanTable'
+    cve_id: CVE-2023-4863
+    cve_url: https://github.com/advisories/GHSA-j7hp-h8jx-5ppr
+    detected_date: Oct 4
+    severity: high
+    first_patched: 10.0.1
+  - name: Pillow Denial of Service by Uncontrolled Resource Consumption
+    cve_id: CVE-2021-27923
+    cve_url: https://github.com/advisories/GHSA-95q3-8gr9-gm8w
+    detected_date: Aug 22
+    severity: high
+    first_patched: 8.1.1
+  - name: Uncontrolled Resource Consumption in Pillow
+    cve_id: CVE-2019-19911
+    cve_url: https://github.com/advisories/GHSA-5gm3-px64-rw72
+    detected_date: Aug 22
+    severity: high
+    first_patched: 6.2.2
+  - name: Out-of-bounds Read in Pillow
+    cve_id: CVE-2020-5313
+    cve_url: https://github.com/advisories/GHSA-hj69-c76v-86wr
+    detected_date: Aug 22
+    severity: high
+    first_patched: 6.2.2
+  - name: Pillow Out-of-bounds Write
+    cve_id: CVE-2020-35654
+    cve_url: https://github.com/advisories/GHSA-vqcj-wrf2-7v73
+    detected_date: Aug 22
+    severity: high
+    first_patched: 8.1.0
+  - name: Pillow Uncontrolled Resource Consumption
+    cve_id: CVE-2021-27922
+    cve_url: https://github.com/advisories/GHSA-3wvg-mj6g-m9cv
+    detected_date: Aug 22
+    severity: high
+    first_patched: 8.1.1
+  - name: Pillow Denial of service
+    cve_id: CVE-2021-28675
+    cve_url: https://github.com/advisories/GHSA-g6rj-rv7j-xwp4
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 8.2.0
+  - name: Improper Initialization in Pillow
+    cve_id: CVE-2022-22815
+    cve_url: https://github.com/advisories/GHSA-pw3c-h7wp-cvhx
+    detected_date: Jan 18
+    severity: moderate
+    first_patched: 9.0.0
+  - name: Out-of-bounds read in Pillow
+    cve_id: CVE-2020-10378
+    cve_url: https://github.com/advisories/GHSA-3xv8-3j54-hgrp
+    detected_date: Jan 18
+    severity: moderate
+    first_patched: 7.1.0
+  - name: Pillow Out-of-bounds Read
+    cve_id: CVE-2020-35655
+    cve_url: https://github.com/advisories/GHSA-hf64-x4gq-p99h
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 8.1.0
+  - name: Out-of-bounds Read in Pillow
+    cve_id: CVE-2022-22816
+    cve_url: https://github.com/advisories/GHSA-xrcv-f9gm-v42c
+    detected_date: Jan 18
+    severity: moderate
+    first_patched: 9.0.0
+  - name: Out-of-bounds reads in Pillow
+    cve_id: CVE-2020-10177
+    cve_url: https://github.com/advisories/GHSA-cqhg-xjhh-p8hf
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 7.1.0
+  - name: Out-of-bounds reads in Pillow
+    cve_id: CVE-2020-10994
+    cve_url: https://github.com/advisories/GHSA-vj42-xq3r-hr3r
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 7.1.0
+  - name: Infinite loop in Pillow
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-4fx9-vc88-q2xc
+    detected_date: Mar 12
+    severity: low
+    first_patched: 9.0.0
+- name: cloudpickle
+  description: Extended pickling support for Python objects
+  package_url: https://pypi.org/project/cloudpickle
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20066/default_bb49fb0188726b8922387d8bb6e9b2cd0c3c0ea9.png
+  detection_source: ml-agents-envs/setup.py
+  last_updated_by: Chris Elion
+  last_updated_on: 2019-07-17 21:35:17.000000000 Z
+- name: grpcio
+  description: HTTP/2-based RPC framework
+  package_url: https://pypi.org/project/grpcio
+  version: 1.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19903/default_1d0eb6da6bdd342bb15f73d8f1721516ebacd1dc.png
+  detection_source_url: github.com/britkern/ml-agents/blob/master/ml-agents-envs/setup.py
+  detection_source: ml-agents-envs/setup.py
+  last_updated_by: Chris Elion
+  last_updated_on: 2019-09-16 23:11:21.000000000 Z
+  vulnerabilities:
+  - name: gRPC Reachable Assertion issue
+    cve_id: CVE-2023-1428
+    cve_url: https://github.com/advisories/GHSA-6628-q6j9-w8vg
+    detected_date: Jul 7
+    severity: high
+    first_patched: 1.53.0
+  - name: Connection confusion in gRPC
+    cve_id: CVE-2023-32731
+    cve_url: https://github.com/advisories/GHSA-cfgp-2977-2fmm
+    detected_date: Jul 6
+    severity: high
+    first_patched: 1.53.0
+  - name: gRPC connection termination issue
+    cve_id: CVE-2023-32732
+    cve_url: https://github.com/advisories/GHSA-9hxf-ppjv-w6rq
+    detected_date: Jul 7
+    severity: moderate
+    first_patched: 1.53.0
+- name: gym
+  description: 'The OpenAI Gym: A toolkit for developing and comparing your reinforcement
+    learning agents'
+  package_url: https://pypi.org/project/gym
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20403/default_ce843a13e614e0f1450cbeee8c38810e4f092f1e.png
+  detection_source: gym-unity/setup.py
+  last_updated_by: Arthur Juliani
+  last_updated_on: 2018-08-07 23:01:10.000000000 Z
+- name: h5py
+  description: Read and write HDF5 files from Python
+  package_url: https://pypi.org/project/h5py
+  version: 2.9.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20166/default_7c58f8c011d1676d1d010f43fec5e502e542d0a5.png
+  detection_source_url: github.com/britkern/ml-agents/blob/master/ml-agents/setup.py
+  detection_source: ml-agents/setup.py
+  last_updated_by: Chris Elion
+  last_updated_on: 2019-09-16 23:11:21.000000000 Z
+- name: protobuf
+  description: Protocol Buffers
+  package_url: https://pypi.org/project/protobuf
+  version: '3.6'
+  license: BSD-1-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19862/default_f24e00e4cb7620e436f9d06e0305070e1335922a.png
+  detection_source_url: github.com/britkern/ml-agents/blob/master/ml-agents-envs/setup.py
+  detection_source: ml-agents-envs/setup.py
+  last_updated_by: Chris Elion
+  last_updated_on: 2019-09-16 23:11:21.000000000 Z
+  vulnerabilities:
+  - name: NULL Pointer Dereference in Protocol Buffers
+    cve_id: CVE-2021-22570
+    cve_url: https://github.com/advisories/GHSA-77rm-9x9h-xj3g
+    detected_date: Feb 11
+    severity: high
+    first_patched: 3.15.0
+  - name: protobuf-cpp and protobuf-python have potential Denial of Service issue
+    cve_id: CVE-2022-1941
+    cve_url: https://github.com/advisories/GHSA-8gq9-2x98-w8hf
+    detected_date: Sep 24
+    severity: high
+    first_patched: 3.18.3
